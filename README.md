@@ -1,7 +1,7 @@
 # therichaverma.github.io
-Hi!
-This is<a href"https://therichaverma.github.io/"> My portfolio site</a>.
-<b>Technologies i used</b>
+<p>Hi!<br>
+This is<a href"https://therichaverma.github.io/"> My portfolio site</a>.</p>
+<h4>Technologies i used</h4>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
