@@ -1,0 +1,70 @@
+
+.navbar{
+  background-color: lightgray;
+  padding-top: 0px;
+  margin-bottom: 8%;
+  opacity: 0.7;
+}
+.navbar-brand{
+  font-size:2.5vw;
+}
+.navbar-toggler{
+  margin-top: 5px;
+  background-color: lightgrey;
+  height: 35px;
+  width:35px;
+  padding: 0px;
+}
+.hi{
+  width:80%;
+  margin: 0px 10% 0px 10%;
+}
+.dp>img{
+  border-radius: 50%;
+  width: 90%;
+  float: right;
+}
+.text{
+  border-left: 5px solid lightgray;
+}
+.text>h1,.skills>h1,.projects>h1{
+  font-size: 4vw;
+}
+.text>h2{
+  font-size: 2.5vw;
+}
+h3{
+  font-size: 2vw;
+}
+.skills,.projects{
+  margin-top: 8%;
+}
+.webtech,.Programming,.db,.tools{
+  padding: 5px;
+  padding-left: 8px;
+  margin: 8px;
+  border:1px solid lightgray;
+}
+figure>img{
+  width:4.5vw;
+  margin: 5px;
+}
+.figure-caption{
+  font-size: 1.5vw;
+  text-align: center;
+}
+.card{
+  margin: 8px;
+  padding: 0px;
+}
+.btn-primary{
+  width: 4vw;
+  font-size: 1vw;
+  padding: 2px;
+  text-align: center;
+}
+footer{
+  background-color: lightgray;
+  padding: 10px;
+  margin-top: 5%;
+}
