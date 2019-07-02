@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Sniglet&display=swap');
+
+.navbar{
+  font-family: 'Righteous',cursive;
+  background-color: lightcoral;
+}
+
+h1{
+  font-size: 2.5rem;
+  background-color: lightblue;
+  margin: 0px;
+}
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.dp>img{
+  width: 80%;
+  border-radius: 50%;
+  float: right;
+}
+.text{
+  border-left: 5px solid lightgray;
+}
+.text>h1,.skills>h1,{
+  font-size: 4vw;
+}
+.text>h2{
+  font-size: 2.5vw;
+}
+
+@media screen and (max-width:576px){
+  h1{
+    font-size: 2rem;
+  }
+  .card{
+    margin:5px auto;
+  }
+  .card-header{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width:768px) {
+h1{
+  font-size: 2.5rem;
+}
+.card{
+  margin: 5px auto;
+}
+}
+
+@media screen and (min-width:992px) {
+  h1{
+    font-size: 3rem;
+  }
+  .card{
+    margin: 4px auto;
+
+  }
+}

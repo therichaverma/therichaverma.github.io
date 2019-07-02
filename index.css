@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Sniglet&display=swap');
 
 .navbar{
   background-color: lightgray;
   padding-top: 0px;
   margin-bottom: 8%;
   opacity: 0.7;
+  font-family: 'Righteous',cursive;
+
 }
 .navbar-brand{
   font-size:2.5vw;
@@ -24,10 +27,7 @@
   width: 90%;
   float: right;
 }
-.text{
-  border-left: 5px solid lightgray;
-}
-.text>h1,.skills>h1,.projects>h1{
+.text>h1,.skills>h1,{
   font-size: 4vw;
 }
 .text>h2{
@@ -42,8 +42,10 @@ h3{
 .webtech,.Programming,.db,.tools{
   padding: 5px;
   padding-left: 8px;
-  margin: 8px;
-  border:1px solid lightgray;
+  margin: 10px;
+  border:2px solid lightgray;
+  box-shadow: 5px 5px 2px lightgray;
+
 }
 figure>img{
   width:4.5vw;
@@ -52,10 +54,6 @@ figure>img{
 .figure-caption{
   font-size: 1.5vw;
   text-align: center;
-}
-.card{
-  margin: 8px;
-  padding: 0px;
 }
 .btn-primary{
   width: 4vw;
@@ -67,4 +65,129 @@ footer{
   background-color: lightgray;
   padding: 10px;
   margin-top: 5%;
+}
+
+@media screen and (max-width:576px){
+  .projects>h1{
+    font-size: 2rem;
+  }
+  .navbar-brand{
+    font-size: 1em;
+  }
+  .card{
+    margin:5px auto;
+  }
+  .card-header{
+    font-size: 1.5rem;
+  }
+  .dp>img{
+    width: 70%;
+    float:none;
+    margin-bottom: 1em;
+  }
+  .text{
+    border-top: 3px solid lightgray;
+    text-align: center;
+  }
+  .text>h2{
+    font-size: 1.2rem;
+  }
+  .skills{
+    text-align: center;
+  }
+  .figure-img{
+    width: 3.5em;
+  }
+  .figure-caption{
+    font-size: 1em;
+  }
+  .webtech>h3,.tools>h3,.Programming>h3,.db>h3{
+    font-size: 1.5em;
+    border-bottom: 2px solid lightgray;
+    padding:3px 3px 5px 3px;
+  }
+  .btn-primary{
+    width: 6em;
+    height: 2em;
+    font-size: 1em;
+    padding: 2px;
+    padding-bottom: 2px;
+  }
+}
+
+@media screen and (min-width:768px) {
+.projects>h1{
+  font-size: 2.5rem;
+}
+.card{
+  margin: 5px auto;
+}
+.card-header{
+  font-size: 1.5rem;
+}
+.dp>img{
+  width: 70%;
+  float:none;
+  margin-bottom: 1em;
+}
+.text{
+  border-top: 3px solid lightgray;
+  border-left: none;
+  text-align: center;
+}
+.text>h2{
+  font-size: 2em;
+}
+.text>h1{
+  font-size: 3em;
+}
+.skills{
+  text-align: center;
+}
+.skills>h1,.projects>h1{
+  font-size: 3em;
+}
+.figure-img{
+  width: 3.8em;
+  margin: 1em;
+}
+.card-body{
+  font-size: 1.5em;
+}
+.figure-caption{
+  font-size: 1.5em;
+}
+.webtech>h3,.tools>h3,.Programming>h3,.db>h3{
+  font-size: 1.8em;
+  border-bottom: 2px solid lightgray;
+  padding:3px 3px 5px 3px;
+}
+.btn-primary{
+  width: 6em;
+  height: 2em;
+  font-size: 1em;
+  padding: 2px;
+  padding-bottom: 2px;
+}
+}
+
+
+@media screen and (min-width:992px) {
+  .projects>h1{
+    font-size: 2rem;
+  }
+  .dp>img{
+    width: 90%;
+  }
+  .text{
+    border-left: 5px solid lightgray;
+    border-top: none;
+    text-align: left;
+  }
+  .card{
+    margin: 4px auto;
+  }
+  .card-body{
+    font-size: 1em;
+  }
 }
