@@ -94,10 +94,10 @@ figure>img{
   color:grey ;
   border: 1px solid grey;
 }
-.btn:hover{
+.btn-outline-primary:hover{
   background-color: #77eed8;
   color: grey;
-  border:none ;
+  border:none;
 }
 footer{
   background-image: linear-gradient(to right,#ADACB5, #77eed8 80%);
